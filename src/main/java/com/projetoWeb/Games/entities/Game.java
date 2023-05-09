@@ -1,7 +1,6 @@
 package com.projetoWeb.Games.entities;
 
 import jakarta.persistence.*;
-import org.springframework.jdbc.support.GeneratedKeyHolder;
 
 import java.util.Objects;
 
