@@ -3,6 +3,7 @@ package com.projetoWeb.Games.services;
 import com.projetoWeb.Games.dto.GameDTO;
 import com.projetoWeb.Games.dto.GameMinDTO;
 import com.projetoWeb.Games.entities.Game;
+import com.projetoWeb.Games.projections.GameMinProjection;
 import com.projetoWeb.Games.repositories.GameRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -29,4 +30,9 @@ public class GameService {
        return result.stream().map(x -> new GameMinDTO(x)).toList();
     }
 
+    @Transactional(readOnly = true)
+    public List<GameMinDTO> findByList(Long listId){
+        List<GameMinProjection> result = gameRepository.searchByList(listId);
+        return result.stream().map(x -> new GameMinDTO(x)).toList();
+    }
 }

@@ -1,6 +1,7 @@
 package com.projetoWeb.Games.dto;
 
 import com.projetoWeb.Games.entities.Game;
+import com.projetoWeb.Games.projections.GameMinProjection;
 
 public class GameMinDTO {
 
@@ -19,6 +20,14 @@ public class GameMinDTO {
         ano = entity.getAno();
         imgUrl = entity.getImgUrl();
         descricaoCurta = entity.getDescricaoCurta();
+    }
+
+    public GameMinDTO(GameMinProjection projection){
+        id = projection.getId();
+        titulo = projection.getTitulo();
+        ano = projection.getAno();
+        imgUrl = projection.getImgUrl();
+        descricaoCurta = projection.getDescricaoCurta();
     }
 
     public Long getId() {
