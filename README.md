@@ -32,6 +32,57 @@ O código consiste em uma lista de jogos, onde os dados são implantados no banc
 - Banco de dados: H2
 - Banco de dados: Postgresql
 
+# Técnicas utilizadas
+## Padrão de camadas
+- Camada de acesso a dados
+- Camada de serviço
+- Controladores Rest
+
+##Framework Spring Boot
+
+##Perfis de projeto
+- test
+- dev
+- prod
+
+##Padrão DTO
+- Customização da representação dos dados
+
+#Competências Aprendidas
+
+##Conceitos
+- Sistemas WEB e recursos
+- Cliente/servidor, HTTP, JSON
+- Padrão Rest para API WEB
+
+##Estruturação de projeto Spring Rest
+- Criação de projeto
+- Config. do arquivo Properties
+- Config. de camadas
+- Entidades
+- ORM
+- Database seeding
+- Controller, service, repository
+
+##Relacionamentos
+- Muitos para um
+- Muitos para muitos
+
+##Classes de associação
+
+##Consultas SQL no Spring Data JPA
+
+##Projections
+
+##Endpoints customizados
+
+##Ambiente local
+- Postgresql
+- pgAdmin
+
+##Movimentações
+- Movimentação de um jogo de uma posição na lista e atualização no banco de dados 
+
 ## Back end
 Pré-requisitos: Java 17
 
