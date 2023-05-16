@@ -19,7 +19,7 @@ O código consiste em uma lista de jogos, onde os dados são implantados no banc
 ![Postman](https://github.com/MateusEneas/Imagens/blob/main/Imagens%20para%20README/POSTMAN.png?raw=true)
 
 ## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
+![Modelo Conceitual](https://github.com/MateusEneas/Imagens/blob/main/Imagens%20para%20README/Modelo%20Conceitual.png?raw=true)
 
 # Tecnologias utilizadas
 ## Back end
