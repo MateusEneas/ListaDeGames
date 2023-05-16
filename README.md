@@ -38,24 +38,24 @@ O código consiste em uma lista de jogos, onde os dados são implantados no banc
 - Camada de serviço
 - Controladores Rest
 
-##Framework Spring Boot
+## Framework Spring Boot
 
-##Perfis de projeto
+## Perfis de projeto
 - test
 - dev
 - prod
 
-##Padrão DTO
+## Padrão DTO
 - Customização da representação dos dados
 
-#Competências Aprendidas
+# Competências Aprendidas
 
-##Conceitos
+## Conceitos
 - Sistemas WEB e recursos
 - Cliente/servidor, HTTP, JSON
 - Padrão Rest para API WEB
 
-##Estruturação de projeto Spring Rest
+## Estruturação de projeto Spring Rest
 - Criação de projeto
 - Config. do arquivo Properties
 - Config. de camadas
@@ -64,23 +64,23 @@ O código consiste em uma lista de jogos, onde os dados são implantados no banc
 - Database seeding
 - Controller, service, repository
 
-##Relacionamentos
+## Relacionamentos
 - Muitos para um
 - Muitos para muitos
 
-##Classes de associação
+## Classes de associação
 
-##Consultas SQL no Spring Data JPA
+## Consultas SQL no Spring Data JPA
 
-##Projections
+## Projections
 
-##Endpoints customizados
+## Endpoints customizados
 
-##Ambiente local
+## Ambiente local
 - Postgresql
 - pgAdmin
 
-##Movimentações
+## Movimentações
 - Movimentação de um jogo de uma posição na lista e atualização no banco de dados 
 
 ## Back end
