@@ -1,4 +1,4 @@
-# Big Game Survey 
+# Lista de Games
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/MateusEneas/ListaDeGames/blob/main/LICENSE) 
 
 # Sobre o projeto
